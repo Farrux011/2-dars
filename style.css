@@ -1,0 +1,36 @@
+body {
+  background-color: #2f4f4f;
+  font-family: Arial, sans-serif;
+  color: #000;
+  text-align: center;
+}
+
+.title {
+  background-color: #3b1e1e;
+  color: white;
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 32px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+
+.outer-box {
+  background-color: red; /* margin area */
+  padding: 15px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 700px;
+}
+
+.inner-box {
+  background-color: black; /* border */
+  padding: 20px;
+}
+
+.inner-box p {
+  background-color: mediumturquoise; /* content + padding */
+  padding: 15px;
+  border: 2px solid blueviolet;
+  text-align: left;
+}
